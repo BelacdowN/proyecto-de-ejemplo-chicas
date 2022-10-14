@@ -11,5 +11,10 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    margin: 40%;
+    margin: 1em;
 }
+
+/* estilo de secciones */
+.seccion{
+  background-color:  rgba(207, 145, 64, 0.795);
+ }
