@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sobre-mi.component.css']
 })
 export class SobreMiComponent implements OnInit {
-
+  
+ 
   constructor() { }
 
   ngOnInit(): void {
