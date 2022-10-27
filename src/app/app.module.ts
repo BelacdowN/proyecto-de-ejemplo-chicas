@@ -10,6 +10,10 @@ import { IndexComponent } from './componentes/index/index.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './componentes/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +22,16 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
     Pagina404Component,
     IndexComponent,
     ExperienciaComponent,
-    HabilidadesComponent
+    HabilidadesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

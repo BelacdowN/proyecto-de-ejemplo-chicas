@@ -11,3 +11,13 @@
  position: absolute;
  margin-left: -3rem;
 }
+
+.banner{
+    width: 100%;
+    min-height: 10em;
+    max-height: 20em;
+}
+
+.position-absolute{
+    opacity: 0.7;
+}
