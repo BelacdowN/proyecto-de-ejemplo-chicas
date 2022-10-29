@@ -9,10 +9,10 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
 import { IndexComponent } from './componentes/index/index.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
