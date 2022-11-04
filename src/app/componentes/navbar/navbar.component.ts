@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DatosService } from 'src/app/servicios/datos.service';
 
 @Component({
   selector: 'app-navbar',
@@ -6,12 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
- 
-  constructor() { }
+redes:any;
+ mostrar = false;
 
-  ngOnInit(): void {
+  constructor(private datos: DatosService) { }
+
+  ngOnInit(): void {    
+    this.datos.getDatos().subscribe(data => {
+      this.redes = data.redes;
+    })
   }
 
-  
+  mostrate():void{
+    this.mostrar=!this.mostrar;
+  }
 
 }

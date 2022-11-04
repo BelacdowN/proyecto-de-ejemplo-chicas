@@ -16,7 +16,7 @@
         "id": 2,
         "banner": "../assets/img/fondoPaisaje.jpg",
         "profileImage": "../assets/img/LogoArgPro.jpg",
-        "nombre": "Alicia Maravillas",
+        "nombre": "Alicia",
         "apellido":"Maravillas",
         "email": "ejemplo@mail.com",
         "titulo": "Soñadora en potencia",
@@ -103,7 +103,7 @@
           },
         {
             "id": 5,
-            "logoEstudio": "../assets/img/LogoGinastera.jpg",
+            "logoEstudio": "../assets/img/LogoGinastera.png",
             "urlEstudio": "https://www.facebook.com/pages/category/Local-business/Conservatorio-Alberto-Ginastera-445100282536202/",
             "estudio": "Ciclo Artístico Vocacional en Guitarra",
             "inicio": "01-04-2017",
@@ -205,6 +205,15 @@
           "inicio": "03-10-2022",
           "fin": "20-11-2022",
           "descripcion": "Capacitación dada a estudiantes, viendo lenguajes HTML y CSS,usando Bootstrap, Fontawesome  para su maquetado y pasado a Angular por componentes, vista de Directivas, Data Binding, Formularios Reactivos."
+         },
+         {
+          "id": 4,
+          "logoProyecto": "../assets/img/tkLogo.jpeg",
+          "urlProyecto": "https://www.youtube.com/playlist?list=PL1oXSbt2OIbG2ipcgJLQ8P64rwS-bz9tZ",
+          "tituloProyecto": "Tutorias #yoprogramo",
+          "inicio": "2022-10-31",
+          "fin": "2022-12-20",
+          "descripcion": "Tutorias en conjunto a ProgramaTK via meet sobre los temas abarcados en los módulos de #yoprogramo, para dar incentivo y guía a estudiantes que se encuentren con dificultades para avanzar."
          }
       ]
   }

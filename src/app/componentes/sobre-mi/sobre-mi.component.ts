@@ -18,8 +18,6 @@ export class SobreMiComponent implements OnInit {
     this.datos.getDatos().subscribe(data => {
       this.personas = data.personas;
     })
-  }
-
-  
+  }  
 
 }

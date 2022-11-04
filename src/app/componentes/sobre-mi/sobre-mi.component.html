@@ -1,6 +1,6 @@
 <section id="sobreMi" class="sobreMi text-white mt-4" >
   <div class="seccion container-fluid rounded shadow-sm mb-5 bg-body-transparent p-0" *ngFor="let persona of personas" [ngSwitch]="persona.id">
-      <div *ngSwitchCase=1>
+      <div *ngSwitchCase=2>
         
         <div class="position-absolute">        
           <a href="#experiencia"><button class="btn btn-light">Experiencia</button></a>
@@ -18,11 +18,11 @@
       <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#bannerModal" class="btn btn-close-white editBanner"><i class="fa-solid fa-pencil"></i></button> 
       <div class="row p-3" >
       <div class="col-3" >
-        <img   [src]="persona.profileImage" class="rounded-circle profileImage w-50" alt="profileImage"> 
+        <img [src]="persona.profileImage" class="rounded-circle profileImage w-50" alt="profileImage"> 
        <!-- Button trigger modal -->  
         <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#profileModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
         <br>
-        <h4 class="nombrePerfil">{{persona.nombre}} {{persona.apellido}}</h4>
+        <h4 class="nombrePerfil">{{persona.nombre}} {{persona.apellido}} {{persona.apellido}}</h4>
         <h5 class="tituloPerfil">{{persona.titulo}}</h5>
       </div>
       <div class="col-8 text-md-start">
